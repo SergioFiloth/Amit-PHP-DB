@@ -1,0 +1,117 @@
+input {
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+}
+
+label {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+.main {
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.principalF {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.balance {
+    background-color: #f8f9fa;
+    display: flex;
+    border-radius: 5px;
+}
+
+.balance>* {
+    border: 1px solid #ccc;
+    padding: .7rem;
+}
+
+.tB {
+    width: 60%;
+}
+
+.cantB {
+    width: 40%;
+    text-align: center;
+    color: green;
+}
+
+.cB {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.firstBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.secondBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.treeBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+form {
+    padding-top: 1rem;
+}
+
+.cBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 auto;
+    color: #fff;
+}
+
+@media(max-width: 1200px) {
+    .principalF {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .firstBlock,
+    .secondBlock,
+    .treeBlock {
+        display: block;
+    }
+}

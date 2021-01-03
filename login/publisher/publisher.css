@@ -1,0 +1,40 @@
+.tC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    color: yellow;
+}
+
+.cBO {
+    margin-bottom: 2rem;
+}
+
+.twoTable {
+    font-size: 0.9rem;
+}
+
+td,
+.trH {
+    text-transform: none;
+}
+
+.tTD>td {
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.lTable {
+    color: yellow;
+}
+
+.lTable:hover {
+    text-decoration: underline;
+}
+
+.tTH {
+    display: flex;
+    width: 153.4%;
+    justify-content: space-between;
+}

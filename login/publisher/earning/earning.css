@@ -1,0 +1,45 @@
+.info {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 1rem;
+}
+
+.cantM {
+    margin-bottom: 1rem;
+}
+
+.money {
+    color: green;
+}
+
+.method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.pMethod {
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.imgM {
+    border: 1px solid #ccc;
+    padding: .5rem;
+    height: 20px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+.mImg {
+    max-height: 100%;
+}
+
+td {
+    color: #000;
+    border: 1px solid #ebebeb;
+    border-top: none;
+}
+
+td:nth-child(1) {
+    width: 50%;
+}

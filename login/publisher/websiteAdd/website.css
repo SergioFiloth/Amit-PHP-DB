@@ -1,0 +1,32 @@
+.mN {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6eaf38;
+}
+
+.btn:hover {
+    background-color: #5b922e;
+}
+
+.trH {
+    display: table-row;
+}
+
+th {
+    padding: 1rem;
+}
+
+.formSelect {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.search {
+    padding: 0.5rem;
+    display: inline-block;
+}

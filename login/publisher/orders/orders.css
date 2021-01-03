@@ -1,0 +1,22 @@
+.trH {
+    display: table-row;
+}
+
+th {
+    padding: .7rem;
+}
+
+.fSearch {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.tableO {
+    margin-bottom: 2rem;
+}
+
+.navC {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

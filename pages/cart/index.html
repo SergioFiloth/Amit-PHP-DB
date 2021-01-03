@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- Here we add Roboto Font of Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" id="fontsGoogle">
+    <!-- Here we use fontawesome 5.15.1 -->
+    <script src="../../js/allFontAwesome.js"></script>
+    <!-- Here we use normalize.css for nomalizer the styles css -->
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <!-- Principal Styles -->
+    <link rel="stylesheet" href="../../css/styles.css">
+    <!-- Styles of the pages -->
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <nav class="navigation" id="nav">
+        <div class="nav">
+            <div class="cMenuT">
+                <a id="lindex">
+                    <img src="../../img/logo.png" class="nav__link--logo" alt="Logo X">
+                </a>
+                <div id="menuT" class="navigation__menuT">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="contMenu desactive" id="contNav">
+                <div class="nav__link">
+                    <ul class="nav__link--navbar">
+                        <li class="navbar">
+                            <a class="navbar__link" id="lsgp">Sell Guest Posts</a>
+                        </li>
+                        <li class="navbar">
+                            <a class="navbar__link" id="lmp">Marketplace</a>
+                        </li>
+                        <li class="navbar">
+                            <a class="navbar__link" id="lgps">Guest Posting Services</a>
+                        </li>
+                        <li class="navbar">
+                            <a class="navbar__link" id="ldaDr">Increase DA/DR</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__cardAndLogin">
+                    <ul class="nav__cardAndLogin--ul">
+                        <a class="cart" id="lcart">
+                            <li class="numberItem"><i class="fas fa-cart-plus cart"></i> 0 item</li>
+                        </a>
+                        <li class="login"><a id="llogin">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="main header" id="fean">
+        <h2 class="titleMp">
+            Cart
+        </h2>
+    </header>
+    <div class="main mainC">
+        <div class="steps">
+            <div class="step active">
+                <h2 class="titleS">Step 1</h2>
+                <p>Review Cart & Provide Details</p>
+            </div>
+            <div class="step">
+                <h2 class="titleS">Step 2</h2>
+                <p>Select payment method & confirm order</p>
+            </div>
+            <div class="step">
+                <h2 class="titleS">Step 3</h2>
+                <p>Order complete</p>
+            </div>
+        </div>
+    </div>
+    <div class="main mBuy">
+        <div class="items">
+            <form class="item">
+                <div class="nI">
+                    <p class="dI">Item <span class="dSI">value</span></p>
+                    <button class="remove">Remove</button>
+                </div>
+                <div class="descriptionI">
+                    <div class="oneI">
+                        <p>Name Website</p><br>
+                        <p><span class="dSI">DA</span> Domain Authority / <span class="dSI">PA</span> Page Authority</p>
+                        <br>
+                        <p class="follow">Do Follow <span class="lFollow">link</span></p>
+                    </div>
+                    <div class="twoI">
+                        <input type="checkbox" name="index" id="index">
+                        <label for="index">Make google index</label>
+                    </div>
+                    <div class="treeI">
+                        <p class="price">
+                            US $Price
+                        </p>
+                        <p class="addP">
+                            Guest post price
+                        </p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="sChose">
+                        <button class="chose active">
+                            Provide Post Content (500 Words Atleast)
+                        </button>
+                        <button class="chose">
+                            Let the Author Write Post Content ($20)
+                        </button>
+                        <button class="chose">
+                            Let our Experts write post content for you ($10)
+                        </button>
+                    </div>
+                    <textarea name="post" id="post"></textarea>
+                    <p class="titleC">
+                        Any special requirements
+                    </p>
+                    <p class="descriptionC">
+                        If necessary, you can write additional task requirements here, e. g., deadline, necessity of
+                        disclosure, preferences
+                        regarding content placement, etc.
+                    </p>
+                    <textarea name="addR" id="addR"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="checkout">
+            <div class="main cM">
+                <a class="btn btnC" id="checkout">
+                    Go to checkout
+                </a>
+                <div class="service">
+                    <p>Websites(value)</p>
+                    <p>$value</p>
+                </div>
+                <div class="service">
+                    <p>Indexing Service (value)</p>
+                    <p>$value</p>
+                </div>
+                <div class="service">
+                    <p>Post content (value)</p>
+                    <p>$value</p>
+                </div>
+                <div class="service t">
+                    <p>Total</p>
+                    <p>$value</p>
+                </div>
+            </div>
+            <p class="note">
+                NOTE: No adult, Sexual, Gambling, Casino or any type of illegal links.
+            </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="firtSection">
+            <div class="footer__links">
+                <a href="#" class="linksF" id="fbgp">Buy gues posts</a>
+                <a href="#" class="linksF" id="fsgp">Sell gues post</a>
+                <a href="#" class="linksF" id="fmp">Marketplace</a>
+                <a href="#" class="linksF" id="fb">Blog</a>
+                <a href="#" class="linksF" id="fc">Contact</a>
+            </div>
+            <hr class="fS">
+            <div class="footer__description">
+                Buy-Sell Guest Post is a platform that merchandise guest posts only with no limitation to minimum guest
+                posts or any SEO metrics. Further, there’s no evaluation for home page features or any other
+                requirements.
+            </div>
+            <div class="social">
+                <i class="socialIcons fab fa-facebook-f"></i>
+                <i class="socialIcons fab fa-twitter"></i>
+            </div>
+        </div>
+        <div class="secondSection">
+            &copy; 2020 BuySellGuestPost.com
+            <div class="secondSectionLink">
+                <a href="#" class="sSecLink" id="ff">FAQs</a>
+                <a href="#" class="sSecLink" id="ft">Terms</a>
+                <a href="#" class="sSecLink" id="fp">Privacy</a>
+                <a href="#" class="sSecLink" id="fr">Refunds</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../../js/main.js"></script>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
